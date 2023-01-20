@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 var lions = [];
 var id = 0;
 
--app.get('/lions', function(req, res){
+app.get('/lions', function(req, res){
   res.json(lions);
 });
 
